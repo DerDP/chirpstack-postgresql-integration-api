@@ -14,7 +14,7 @@ TODO: Guide users through getting your code up and running on their own system. 
 1. Clone the Repository:
    ```bash
    git clone https://github.com/DerDP/chirpstack-postgresql-integration-api
-   cd chirp-integration-api/code/app
+   cd chirpstack-postgresql-integration-api/code
 2.	Install Dependencies:
 	```bash
 	pip install -r requirements.txt
