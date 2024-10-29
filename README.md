@@ -10,7 +10,7 @@ Swagger page is available at /docs web path.
 - Environment setup for the API key and database connection string
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+
 1. Clone the Repository:
    ```bash
    git clone https://github.com/DerDP/chirpstack-postgresql-integration-api
