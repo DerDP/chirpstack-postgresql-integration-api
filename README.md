@@ -55,7 +55,7 @@ docker run -d \
 ```
 
 # k8s deployment
-Adjust the deploy.sh in `k8s/` folder and run following commands (populate `code/app/.env` as secret is created with these values):
+Adjust the deploy.sh and yaml files in `k8s/` folder and run following commands (populate `code/app/.env` as secret is created with these values):
 
 ```bash
 chmox +x deploy.sh
