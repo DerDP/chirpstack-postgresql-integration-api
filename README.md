@@ -10,11 +10,11 @@ Swagger page is available at /docs web path.
 - Environment setup for the API key and database connection string
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+
 1. Clone the Repository:
    ```bash
    git clone https://github.com/DerDP/chirpstack-postgresql-integration-api
-   cd chirp-integration-api/code/app
+   cd chirpstack-postgresql-integration-api/code
 2.	Install Dependencies:
 	```bash
 	pip install -r requirements.txt
@@ -55,7 +55,7 @@ docker run -d \
 ```
 
 # k8s deployment
-Adjust the deploy.sh in `k8s/` folder and run following commands (populate `code/app/.env` as secret is created with these values):
+Adjust the deploy.sh and yaml files in `k8s/` folder and run following commands (populate `code/app/.env` as secret is created with these values):
 
 ```bash
 chmox +x deploy.sh
