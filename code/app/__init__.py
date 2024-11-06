@@ -15,8 +15,12 @@ def create_app() -> FastAPI:
 		openapi_tags=[
 			{
 				"name": "Sensor data",
-				"description": "Perform queries on event_up table",
-			}
+				"description": "Gets Devices from event_up table",
+			},
+   			{
+				"name": "Sensor data history",
+				"description": "Gets device history from event_up table",
+			},
 		]
 	)
 
